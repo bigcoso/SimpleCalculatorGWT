@@ -30,6 +30,7 @@ public class SimpleCalculatorGWTp implements EntryPoint {
 		
 		 //TextButton testButton=new TextButton("Prueba");
 		Calculator calculadora=new Calculator();
+		RootPanel.get("calculatorContainer").add(calculadora);
 		 
 		/* VerticalPanel vpNumeros=new VerticalPanel();
 		 
